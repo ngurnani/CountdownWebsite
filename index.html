@@ -9,12 +9,20 @@ body, html {
 .bgimg {
     background-image: url('Princeton_University_Chapel.jpg');
     height: 100%;
+	width: 100%;
     background-position: center;
     background-size: cover;
+    position: absolute;
+	opacity: 0.8;
+}
+
+.main {
+    background-color: rgba(0,0,0,0.3);
+	height: 100%;
     position: relative;
     color: white;
     font-family: "MrsEavesRoman regular";
-    font-size: 40px;
+    font-size: 50px;
 }
 
 .topleft {
@@ -31,7 +39,7 @@ body, html {
 
 .middle {
     position: absolute;
-    top: 50%;
+    top: 75%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -44,6 +52,9 @@ hr {
 </style>
 
 <div class="bgimg">
+</div>
+
+<div class="main">
   <div class="middle">
     <a href="http://meredithandkevin.us/" style="color: #FF8C00; text-decoration: none;">#PrinceEds2NewlyWeds</a></h1>
     <hr>
